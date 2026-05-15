@@ -453,6 +453,40 @@ a {
   }
 }
 
+.viewer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.viewer-figure {
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  overflow: hidden;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.viewer-figure img {
+  width: 100%;
+  display: block;
+  border-radius: 20px 20px 0 0;
+}
+
+.viewer-figure figcaption {
+  padding: 16px 18px 20px;
+  color: var(--muted);
+  font-size: 0.93rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 760px) {
+  .viewer-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .demo-panel {
   display: grid;
   gap: 18px;
