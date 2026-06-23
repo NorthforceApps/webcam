@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stream your phone to VLC and OBS over RTSP — WebCam</title>
+<meta name="description" content="Use your phone as an RTSP camera source. WebCam's Streaming-apps mode gives you an RTSP URL with H.264 video and optional audio that opens in VLC, OBS and other players.">
+<link rel="canonical" href="https://northforceapps.github.io/webcam/guides/rtsp-camera-vlc-obs.html">
+<meta name="theme-color" content="#0c7e7b">
+<meta name="keywords" content="rtsp camera app, phone rtsp stream, vlc phone camera, obs rtsp source, android rtsp server, phone camera for obs">
+<link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/guides/rtsp-camera-vlc-obs.html">
+<link rel="alternate" hreflang="de" href="https://northforceapps.github.io/webcam/de/guides/rtsp-camera-vlc-obs.html">
+<link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/webcam/guides/rtsp-camera-vlc-obs.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="WebCam">
+<meta property="og:locale" content="en">
+<meta property="og:title" content="Stream your phone to VLC and OBS over RTSP">
+<meta property="og:description" content="Use your phone as an RTSP camera source. WebCam's Streaming-apps mode gives you an RTSP URL with H.264 video and optional audio that opens in VLC, OBS and other players.">
+<meta property="og:url" content="https://northforceapps.github.io/webcam/guides/rtsp-camera-vlc-obs.html">
+<meta property="og:image" content="https://northforceapps.github.io/webcam/assets/feature_graphic.png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="500">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Stream your phone to VLC and OBS over RTSP">
+<meta name="twitter:description" content="Use your phone as an RTSP camera source. WebCam's Streaming-apps mode gives you an RTSP URL with H.264 video and optional audio that opens in VLC, OBS and other players.">
+<meta name="twitter:image" content="https://northforceapps.github.io/webcam/assets/feature_graphic.png">
+<link rel="icon" href="/webcam/assets/icon.png" type="image/png">
+<link rel="apple-touch-icon" href="/webcam/assets/icon.png">
+<link rel="manifest" href="/webcam/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Hanken+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/webcam/styles.css">
+<style>.doc{max-width:780px;margin:0 auto;padding:40px 24px 80px}
+  .doc h1{font-family:var(--serif);font-size:2.4rem;color:var(--teal-deep);margin-bottom:6px}
+  .doc h2{font-family:var(--serif);font-size:1.4rem;color:var(--ink);margin:30px 0 8px}
+  .doc p,.doc li{color:var(--ink-soft);margin:8px 0}
+  .doc ul{margin-left:20px}
+  .doc .eff{color:var(--stone);font-size:.95rem}
+  .doc .lede{margin-top:18px}
+  .doc .cta-card{margin-top:36px;padding:22px;border-radius:18px;background:var(--paper);border:1px solid rgba(10,18,33,.08)}
+  .guide-hero{width:100%;height:auto;border-radius:18px;margin:18px 0 8px;display:block}
+  .doc h3{font-family:var(--serif);font-size:1.15rem;color:var(--teal-deep);margin:22px 0 6px}
+  .doc ol,.doc ul{margin-left:20px}
+  .doc ol li,.doc ul li{margin:6px 0}
+  .doc .faq{margin-top:34px}
+  .doc .faq h2{margin-bottom:12px}
+  .doc .faq details{background:var(--paper);border:1px solid rgba(10,18,33,.08);border-radius:14px;padding:18px 22px;margin-bottom:12px}
+  .doc .faq summary{font-weight:700;color:var(--ink);cursor:pointer;font-size:1.05rem;list-style:none}
+  .doc .faq summary::-webkit-details-marker{display:none}
+  .doc .faq details p{margin-top:10px;color:var(--ink-soft)}
+  .doc .related{margin-top:34px}
+  .doc .related ul{list-style:none;margin-left:0}
+  .doc .related li{margin:8px 0}</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "inLanguage": "en",
+  "headline": "Stream your phone to VLC and OBS over RTSP",
+  "description": "Use your phone as an RTSP camera source. WebCam's Streaming-apps mode gives you an RTSP URL with H.264 video and optional audio that opens in VLC, OBS and other players.",
+  "mainEntityOfPage": "https://northforceapps.github.io/webcam/guides/rtsp-camera-vlc-obs.html",
+  "image": "https://northforceapps.github.io/webcam/assets/feature_graphic.png",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Northforce Apps"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "en",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What URL do I paste into VLC or OBS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Switch to Streaming-apps mode and WebCam shows the RTSP address for your phone on the network. In VLC use Open Network Stream; in OBS add a Media Source and paste the RTSP URL."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does it include audio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "RTSP mode can include optional live audio from the device microphone alongside the H.264 video."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use it as a second camera in OBS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Add the RTSP stream as a Media Source in an OBS scene to get an extra phone-camera angle."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/webcam/"><img src="/webcam/assets/icon.png" alt="WebCam icon">WebCam</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a class="nav-sec" href="/webcam/#features">Features</a>
+      <a class="nav-sec" href="/webcam/#how">How it works</a>
+      <a href="/webcam/guides/">Guides</a>
+      <details class="lang"><summary><span class="flag">🇬🇧</span> <span class="lang-label">English</span> <span class="chev" aria-hidden="true">▾</span></summary><div class="lang-menu"><a href="/webcam/guides/rtsp-camera-vlc-obs.html" hreflang="en" lang="en" aria-current="true">🇬🇧 English</a><a href="/webcam/de/guides/rtsp-camera-vlc-obs.html" hreflang="de" lang="de">🇩🇪 Deutsch</a></div></details>
+    </nav>
+  </div>
+</header>
+<main class="doc">
+  <p class="eff"><a href="/webcam/guides/">← All guides</a></p>
+  <h1>Stream your phone to VLC and OBS over RTSP</h1>
+  <img class="guide-hero" src="/webcam/assets/scene-06-second-angle.jpg" alt="A phone providing a second camera angle into OBS" loading="lazy">
+<p class="lede">If you already use VLC or OBS, your phone can be a camera source in them. <a href="/webcam/">WebCam</a>'s Streaming-apps mode publishes an RTSP stream — H.264 video with optional live audio — that those apps open directly over your Wi-Fi.</p>
+
+<h2>Get the RTSP URL</h2>
+<p>Open WebCam and switch to <strong>Streaming-apps mode</strong>. WebCam shows the RTSP address for your phone on the network (an <code>rtsp://…</code> URL). Keep the phone and the player on the same Wi-Fi.</p>
+
+<h2>Open it in VLC</h2>
+<ol>
+  <li>In VLC, choose <strong>Media → Open Network Stream</strong>.</li>
+  <li>Paste the <code>rtsp://…</code> URL and press Play.</li>
+  <li>If playback looks delayed, lower VLC's network caching for a more live feel.</li>
+</ol>
+
+<h2>Add it to OBS</h2>
+<ol>
+  <li>In OBS, add a <strong>Media Source</strong> to a scene.</li>
+  <li>Untick <em>Local File</em> and paste the RTSP URL as the input.</li>
+  <li>Use it as an extra camera angle, or start OBS's <strong>virtual camera</strong> to feed the phone into meeting apps.</li>
+</ol>
+
+<h2>Audio and quality</h2>
+<p>RTSP mode can include optional live audio from the device microphone alongside the video. Adjust the stream settings in WebCam to balance quality against what your network handles smoothly.</p>
+
+<h2>Browser mode vs RTSP</h2>
+<p>If you just want to watch in a browser with nothing to install on the other device, use <a href="/webcam/">Browser mode</a> instead. RTSP is the right choice when you want the phone inside a player or production tool like OBS.</p>
+
+<p>See also: <a href="/webcam/guides/use-phone-as-webcam-for-pc.html">use your phone as a webcam for PC</a>.</p>
+
+  <section class="faq">
+    <h2>Frequently asked questions</h2>
+    <details><summary>What URL do I paste into VLC or OBS?</summary><p>Switch to Streaming-apps mode and WebCam shows the RTSP address for your phone on the network. In VLC use Open Network Stream; in OBS add a Media Source and paste the RTSP URL.</p></details>
+    <details><summary>Does it include audio?</summary><p>RTSP mode can include optional live audio from the device microphone alongside the H.264 video.</p></details>
+    <details><summary>Can I use it as a second camera in OBS?</summary><p>Yes. Add the RTSP stream as a Media Source in an OBS scene to get an extra phone-camera angle.</p></details>
+  </section>
+  <section class="related">
+    <h2>Related guides</h2>
+    <ul>
+      <li><a href="/webcam/guides/use-phone-as-webcam-for-pc.html">Use your phone as a webcam for PC</a></li>
+      <li><a href="/webcam/guides/phone-as-ip-camera.html">Turn your phone into an IP camera</a></li>
+      <li><a href="/webcam/guides/document-camera-for-teaching.html">Document camera for teaching</a></li>
+      <li><a href="/webcam/guides/phone-pet-monitor.html">Use your phone as a pet monitor</a></li>
+    </ul>
+  </section>
+  <div class="cta-card">
+    <h2>Ready to try it?</h2>
+    <p>WebCam is free to install. A live stream in seconds.</p>
+    <p><a class="play-badge" href="https://play.google.com/store/apps/details?id=com.stream.webcam" rel="noopener"><img src="/webcam/assets/badge-en.svg" alt="Get it on Google Play" width="186" height="55" loading="lazy"></a></p>
+  </div>
+</main>
+<footer>
+  <div class="wrap foot">
+    <div>© <span id="y">2026</span> WebCam · Northforce Apps</div>
+    <nav aria-label="Footer">
+      <a href="/webcam/privacy.html">Privacy</a>
+      <a href="mailto:northforceapps@protonmail.com">Contact</a>
+      <a href="https://play.google.com/store/apps/details?id=com.stream.webcam" rel="noopener">Google Play</a>
+    </nav>
+  </div>
+</footer>
+<script src="/webcam/app.js"></script>
+</body>
+</html>

@@ -1,13 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://northforceapps.github.io/webcam/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/webcam/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/webcam/"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/webcam/de/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/webcam/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/webcam/"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/webcam/guides/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/webcam/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/webcam/guides/"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/webcam/de/guides/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/webcam/de/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/webcam/guides/"/>
   </url>
   <url>
     <loc>https://northforceapps.github.io/webcam/privacy.html</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/webcam/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/webcam/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/webcam/de/privacy.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/webcam/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/webcam/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/webcam/guides/use-phone-as-webcam-for-pc.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/guides/use-phone-as-webcam-for-pc.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/webcam/de/guides/use-phone-as-webcam-for-pc.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/webcam/guides/use-phone-as-webcam-for-pc.html"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/webcam/de/guides/use-phone-as-webcam-for-pc.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/guides/use-phone-as-webcam-for-pc.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/webcam/de/guides/use-phone-as-webcam-for-pc.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/webcam/guides/use-phone-as-webcam-for-pc.html"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/webcam/guides/phone-as-ip-camera.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/guides/phone-as-ip-camera.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/webcam/de/guides/phone-as-ip-camera.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/webcam/guides/phone-as-ip-camera.html"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/webcam/de/guides/phone-as-ip-camera.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/guides/phone-as-ip-camera.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/webcam/de/guides/phone-as-ip-camera.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/webcam/guides/phone-as-ip-camera.html"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/webcam/guides/rtsp-camera-vlc-obs.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/guides/rtsp-camera-vlc-obs.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/webcam/de/guides/rtsp-camera-vlc-obs.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/webcam/guides/rtsp-camera-vlc-obs.html"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/webcam/de/guides/rtsp-camera-vlc-obs.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/guides/rtsp-camera-vlc-obs.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/webcam/de/guides/rtsp-camera-vlc-obs.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/webcam/guides/rtsp-camera-vlc-obs.html"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/webcam/guides/document-camera-for-teaching.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/guides/document-camera-for-teaching.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/webcam/de/guides/document-camera-for-teaching.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/webcam/guides/document-camera-for-teaching.html"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/webcam/de/guides/document-camera-for-teaching.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/guides/document-camera-for-teaching.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/webcam/de/guides/document-camera-for-teaching.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/webcam/guides/document-camera-for-teaching.html"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/webcam/guides/phone-pet-monitor.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/guides/phone-pet-monitor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/webcam/de/guides/phone-pet-monitor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/webcam/guides/phone-pet-monitor.html"/>
+  </url>
+  <url>
+    <loc>https://northforceapps.github.io/webcam/de/guides/phone-pet-monitor.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/guides/phone-pet-monitor.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://northforceapps.github.io/webcam/de/guides/phone-pet-monitor.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/webcam/guides/phone-pet-monitor.html"/>
   </url>
 </urlset>

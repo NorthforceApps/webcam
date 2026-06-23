@@ -1,0 +1,13 @@
+{
+  "name": "WebCam: Instant Wi-Fi Camera",
+  "short_name": "WebCam",
+  "description": "Turn your Android phone into a private Wi-Fi camera. Stream live to any browser or to VLC and OBS over RTSP — no account, no cloud.",
+  "start_url": "/webcam/",
+  "scope": "/webcam/",
+  "display": "standalone",
+  "background_color": "#e7f2ff",
+  "theme_color": "#0c7e7b",
+  "icons": [
+    { "src": "assets/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

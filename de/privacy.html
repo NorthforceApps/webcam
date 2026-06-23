@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutzerklärung — WebCam</title>
+<meta name="description" content="Datenschutzerklärung von WebCam. Streaming im lokalen Netzwerk, kein Konto erforderlich, keine Entwickler-Cloud, kein Tracking in der Kern-App, kein Verkauf personenbezogener Daten.">
+<link rel="canonical" href="https://northforceapps.github.io/webcam/de/privacy.html">
+<meta name="theme-color" content="#0c7e7b">
+<link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/privacy.html">
+<link rel="alternate" hreflang="de" href="https://northforceapps.github.io/webcam/de/privacy.html">
+<link rel="alternate" hreflang="x-default" href="https://northforceapps.github.io/webcam/privacy.html">
+<meta name="robots" content="index,follow">
+<link rel="icon" href="/webcam/assets/icon.png" type="image/png">
+<link rel="apple-touch-icon" href="/webcam/assets/icon.png">
+<link rel="manifest" href="/webcam/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Hanken+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/webcam/styles.css">
+<style>.doc{max-width:780px;margin:0 auto;padding:40px 24px 80px}
+  .doc h1{font-family:var(--serif);font-size:2.4rem;color:var(--teal-deep);margin-bottom:6px}
+  .doc h2{font-family:var(--serif);font-size:1.4rem;color:var(--ink);margin:30px 0 8px}
+  .doc p,.doc li{color:var(--ink-soft);margin:8px 0}
+  .doc ul{margin-left:20px}
+  .doc .eff{color:var(--stone);font-size:.95rem}
+  .doc .lede{margin-top:18px}
+  .doc .cta-card{margin-top:36px;padding:22px;border-radius:18px;background:var(--paper);border:1px solid rgba(10,18,33,.08)}</style>
+
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/webcam/de/"><img src="/webcam/assets/icon.png" alt="WebCam icon">WebCam</a>
+    <nav class="nav-links"><a href="/webcam/de/">Start</a><details class="lang"><summary><span class="flag">🇩🇪</span> <span class="lang-label">Deutsch</span> <span class="chev" aria-hidden="true">▾</span></summary><div class="lang-menu"><a href="/webcam/privacy.html" hreflang="en" lang="en">🇬🇧 English</a><a href="/webcam/de/privacy.html" hreflang="de" lang="de" aria-current="true">🇩🇪 Deutsch</a></div></details></nav>
+  </div>
+</header>
+<main class="doc">
+<h1>Datenschutzerklärung</h1>
+  <p class="eff">Gültig ab: 7. April 2026</p>
+  <p class="lede">WebCam ist eine Streaming-App für Android im lokalen Netzwerk. Sie ermöglicht dir, deine Handykamera im selben Wi-Fi oder LAN zu streamen, entweder mit einem browserbasierten MJPEG Stream oder einem RTSP Stream für kompatible Clients wie VLC oder OBS. Die Kernfunktionen funktionieren ohne Konto oder Anmeldung. Diese Erklärung beschreibt, welche Daten verarbeitet werden, wie sie verwendet werden und welche Wahlmöglichkeiten du hast.</p>
+
+  <h2>1. Zusammenfassung</h2>
+  <ul>
+    <li>WebCam erfordert keine Kontoerstellung.</li>
+    <li>WebCam nutzt keinen vom Entwickler betriebenen Cloud-Streaming-Dienst.</li>
+    <li>Kameravideo wird auf deinem Gerät verarbeitet und lokal in deinem Netzwerk geteilt.</li>
+    <li>In der Kernfunktion gibt es kein Tracking und keine Analytics.</li>
+    <li>Wir verkaufen deine personenbezogenen Daten nicht.</li>
+    <li>Zahlungen werden über Google Play Billing abgewickelt.</li>
+    <li>Wenn Firebase in einem Build aktiviert ist, können Crash-Diagnosen und begrenzte Analytics erfasst werden (siehe Abschnitt 6).</li>
+  </ul>
+
+  <h2>2. Informationen, die wir verarbeiten</h2>
+  <p><strong>Kamera und Mikrofon:</strong> Kameravideo wird für Live-Streaming und snapshots erfasst. Im RTSP (Streaming-Apps)-Modus kann WebCam außerdem das Gerätemikrofon nutzen, um optionales Live-Audio in den Stream einzubinden. Diese Medien werden zur Anzeige in deinem lokalen Netzwerk geteilt und nicht auf vom Entwickler betriebene Server hochgeladen.</p>
+  <p><strong>Auf deinem Gerät gespeicherte App-Einstellungen:</strong> Stream-Modus, ausgewählte Kamera, Auflösung, Bildrate, JPEG Qualität, RTSP Bitrate, RTSP Port, Drehung, Spiegelung, Onboarding-Status und ein optionales Passwort zum Schutz des lokalen Webstreams und des RTSP Zugriffs.</p>
+  <p><strong>Verbindungsdetails:</strong> Wenn sich ein Betrachter mit dem lokalen Stream verbindet, kann die App vorübergehend grundlegende Verbindungsdetails verarbeiten, etwa lokale IP address, Client-Typ oder User-Agent, angeforderter Pfad und Verbindungszeit, damit verbundene Clients in der App angezeigt werden können.</p>
+
+  <h2>3. Verwendete Berechtigungen</h2>
+  <ul>
+    <li><strong>CAMERA</strong> — Live-Videoaufnahme und snapshots.</li>
+    <li><strong>RECORD_AUDIO</strong> — optionales Live-Audio bei Nutzung des RTSP (Streaming-Apps)-Modus.</li>
+    <li><strong>POST_NOTIFICATIONS</strong> — die Benachrichtigung des Vordergrunddienstes (Android 13+).</li>
+    <li><strong>FOREGROUND_SERVICE</strong> (mit <strong>_CAMERA</strong> und <strong>_MICROPHONE</strong>) — hält das Streaming während der Ausführung zuverlässig.</li>
+    <li><strong>INTERNET</strong> — die lokale Browseroberfläche und optionale Firebase Dienste.</li>
+  </ul>
+
+  <h2>4. In-App-Käufe</h2>
+  <p>WebCam bietet ein Pro Upgrade, das die Sitzungs- und Tageslimits der kostenlosen Version entfernt. Pro ist als Abo oder als einmalige dauerhafte Freischaltung verfügbar. Käufe und Berechtigungen werden über Google Play Billing abgewickelt; WebCam speichert nur deinen Berechtigungsstatus lokal.</p>
+
+  <h2>5. Datenweitergabe</h2>
+  <p>WebCam verkauft deine personenbezogenen Daten nicht. Stream-Inhalte sind für die Anzeige im lokalen Netzwerk vorgesehen und werden nicht auf vom Entwickler betriebene Server hochgeladen. WebCam erstellt kein vom Entwickler gehostetes Nutzerprofil für dich und verlangt keine Anmeldung, um lokales Streaming zu nutzen.</p>
+
+  <h2>6. Firebase (Production Builds)</h2>
+  <p>Produktionsversionen können Firebase Analytics und Firebase Crashlytics verwenden, wenn der Entwickler Firebase für den Release-Build aktiviert. Falls aktiviert, kann Firebase Crash-Diagnosen, App-Versionsinformationen und Nutzungs-Analytics erhalten. Firebase wird von Google bereitgestellt und unterliegt den eigenen Bedingungen und Datenschutzpraktiken von Google.</p>
+
+  <h2>7. Kinder</h2>
+  <p>WebCam ist ein allgemeines Hilfsprogramm und richtet sich nicht an Kinder. Die App erfasst wissentlich keine personenbezogenen Daten von Kindern.</p>
+
+  <h2>8. Änderungen</h2>
+  <p>Wir können diese Erklärung aktualisieren, wenn sich die App weiterentwickelt. Wesentliche Änderungen werden durch Aktualisierung des oben genannten Gültigkeitsdatums kenntlich gemacht.</p>
+
+  <h2>9. Kontakt</h2>
+  <p>Fragen zu dieser Erklärung? Kontaktiere <a href="mailto:northforceapps@protonmail.com">northforceapps@protonmail.com</a>.</p>
+
+</main>
+<footer>
+  <div class="wrap foot">
+    <div>© <span id="y">2026</span> WebCam · Northforce Apps</div>
+    <nav aria-label="Footer">
+      <a href="/webcam/de/privacy.html">Datenschutz</a>
+      <a href="mailto:northforceapps@protonmail.com">Kontakt</a>
+      <a href="https://play.google.com/store/apps/details?id=com.stream.webcam" rel="noopener">Google Play</a>
+    </nav>
+  </div>
+</footer>
+<script src="/webcam/app.js"></script>
+</body>
+</html>
