@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://northforceapps.github.io/webcam/</loc>
-    <lastmod>2026-07-24</lastmod>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/"/>
@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://northforceapps.github.io/webcam/de/</loc>
-    <lastmod>2026-07-24</lastmod>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/"/>
@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://northforceapps.github.io/webcam/privacy.html</loc>
-    <lastmod>2026-07-24</lastmod>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/privacy.html"/>
@@ -47,7 +47,7 @@
   </url>
   <url>
     <loc>https://northforceapps.github.io/webcam/de/privacy.html</loc>
-    <lastmod>2026-07-24</lastmod>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://northforceapps.github.io/webcam/privacy.html"/>
